@@ -1,0 +1,101 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 50px auto; /* Mueve el contenido al centro horizontalmente y agrega margen superior */
+    text-align: center;
+}
+
+/* Estilo para el título */
+.title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo del encabezado */
+h1 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilo del campo de entrada */
+#task {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón de enviar */
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Efecto hover para el botón */
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilo para la lista de tareas */
+#tasks {
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilo para los elementos de la lista */
+#tasks li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para las casillas de verificación */
+#tasks li input[type="checkbox"] {
+    margin-right: 10px;
+}
+.delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Efecto hover para el botón de eliminar */
+.delete-btn:hover {
+    background-color: #c9302c;
+}
